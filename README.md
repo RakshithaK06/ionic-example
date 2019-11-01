@@ -1,4 +1,4 @@
-# KintoHub {name}-example
+# KintoHub Ionic WPA Example
 
 ## Overview
 Ionic is an amazing mobile app framework making it easy to make native apps for any operating system. They support Web Progressive Apps which can easily be built and used on KintoHub!
