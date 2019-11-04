@@ -43,5 +43,3 @@ You can do a lot with KintoHub and your deployed application. Some helpful links
 
 * [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
 * [Setting a password to protect your work](https://docs.kintohub.com/docs/kintoblocks/websites#basic-auth-for-websites)
-* Enable Continuous Integration (CI) or Continuous Deployment (CD) //TODO: Future links ;)
-
