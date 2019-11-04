@@ -4,7 +4,7 @@
 Ionic is an amazing mobile app framework making it easy to make native apps for any operating system. They support Web Progressive Apps which can easily be built and used on KintoHub!
 The conference app example shows off the power of Ionic, thus we have forked it with *zero* modifications so you can see it in action with KintoHub.
 
-[Live Example](https://ionic-example-96bf9-65a24.web.staging.kintohub.com/)
+[Live Example](https://ionic-example-1d0d2-8caf9.web.master.kintohub.com/)
 
 __About KintoHub:__
 
@@ -36,9 +36,6 @@ Ensure you have node 6 or higher.
 ## Test
 
 1. `npm run test`
-
-## Usage
-You can view a live example [here](https://ionic-example-96bf9-65a24.web.staging.kintohub.com/)
 
 ## What's Next?
 
