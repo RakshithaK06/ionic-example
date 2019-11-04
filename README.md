@@ -12,7 +12,7 @@ KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More
 
 ## Deployment
 1. Apply this template to your [Github](https://github.com/kintohub/ionic-example/generate)
-2. Create a [Website Block](https://staging.kintohub.com/app/dashboard) on KintoHub
+2. Create a [Website Block](https://beta.kintohub.com/app/dashboard/) on KintoHub
 3. Connect your GithubApp to KintoHub and select the Repository you just generated on your account.
 4. Set the **name** of your kinto block
 5. Choose **Static from build** as your type
