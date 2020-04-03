@@ -1,64 +1,45 @@
-# Ionic Angular Conference Application
+# KintoHub Ionic WPA Example
 
-This application is purely a kitchen-sink demo of the Ionic Framework and Angular.
+## Overview
+Ionic is an amazing mobile app framework making it easy to make native apps for any operating system. They support Web Progressive Apps which can easily be built and used on KintoHub!
+The conference app example shows off the power of Ionic, thus we have forked it with *zero* modifications so you can see it in action with KintoHub.
 
-**There is not an actual Ionic Conference at this time.** This project is just to show off Ionic components in a real-world application. Please go through the steps in [CONTRIBUTING](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) before submitting an issue.
+[Live Example](https://ionic-example-1d0d2-8caf9.web.master.kintohub.com/)
 
+__About KintoHub:__
 
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [App Preview](#app-preview)
-- [Deploying](#deploying)
-  - [Progressive Web App](#progressive-web-app)
-  - [Android](#android)
-  - [iOS](#ios)
+KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
 
+## Deployment
+1. Apply this template to your [Github](https://github.com/kintohub/ionic-example/generate)
+2. Create a [Website Block](https://beta.kintohub.com/app/dashboard/) on KintoHub
+3. Connect your GithubApp to KintoHub and select the Repository you just generated on your account.
+4. Set the **name** of your kinto block
+5. Choose **Static from build** as your type
+6. Choose `Node.js` as the **language** and `11.7.0` as the **version**
+7. Set the **Build Command** as `npm install && npm run build`
+8. Set the **Build Output Folder** as `/www`
 
-## Getting Started
+You're now good to go! Click **Create Website**. Now click **Build Latest Commit**
 
-* [Download the installer](https://nodejs.org/) for Node.js 6 or greater.
-* Install the ionic CLI globally: `npm install -g ionic`
-* Clone this repository: `git clone https://github.com/ionic-team/ionic-conference-app.git`.
-* Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
-* Profit. :tada:
+... The build takes about 5 minutes. Once complete, Click *Add to Project*
 
-_Note: See [How to Prevent Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions) if you are running into issues when trying to install packages globally._
+Follow the instruction to creating a new project. Once created, you can then click *Open* on your Ionic block and see it running live!
 
-## Contributing
-See [CONTRIBUTING.md](https://github.com/ionic-team/ionic-conference-app/blob/master/.github/CONTRIBUTING.md) :tada::+1:
+## Installation & Local Run
+Ensure you have node 6 or higher.
 
+1. `npm install -g ionic`
+2. `npm install`
+3. `ionic serve`
 
-## App Preview
+## Test
 
-All app preview screenshots were taken by running `ionic serve --lab` on a retina display.
+1. `npm run test`
 
-- [Schedule Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/schedule/schedule.html)
+## What's Next?
 
-  <img src="resources/screenshots/SchedulePage.png" alt="Schedule">
+You can do a lot with KintoHub and your deployed application. Some helpful links for next steps that you may consider with this project.
 
-
-- [About Page](https://github.com/ionic-team/ionic-conference-app/blob/master/src/app/pages/about/about.html)
-
-  <img src="resources/screenshots/AboutPage.png" alt="Schedule">
-
-
-- To see more images of the app, check out the [screenshots directory](https://github.com/ionic-team/ionic-conference-app/tree/master/resources/screenshots)!
-
-
-## Deploying
-
-### Progressive Web App
-
-1. Un-comment [these lines](https://github.com/ionic-team/ionic2-app-base/blob/master/src/index.html#L21)
-2. Run `npm run ionic:build --prod`
-3. Push the `www` folder to your hosting service
-
-### Android
-
-1. Run `ionic cordova run android --prod`
-
-### iOS
-
-1. Run `ionic cordova run ios --prod`
+* [Creating multiple environments](https://docs.kintohub.com/docs/projects/environments)
+* [Setting a password to protect your work](https://docs.kintohub.com/docs/kintoblocks/websites#basic-auth-for-websites)
